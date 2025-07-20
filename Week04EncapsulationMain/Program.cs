@@ -1,9 +1,9 @@
 ﻿using System;
 using Week04EncapsulationMain;
 
-class Program
+class Program // Main method to test the Cars class
 {
-    static void Main ()
+    static void Main () // This is the entry point of the program
     {
         Cars car1 = new Cars("Toyota", "Corolla", "Red", 4); // Valid value
         Cars car2 = new Cars("Honda", "Civic", "Blue", 3); // Invalid value, will trigger the setter logic
